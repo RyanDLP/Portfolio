@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  color: black;
+  box-sizing: border-box;
+}
+
+:root {
+  --red: #f32a2a;
+  --dark: black;
+  --light: #f5f5f5;
+}
+
+body {
+  margin: auto 10%;
+  background-color: black;
+  font-family: "Trebuchet MS", sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background-color: #111;
+}
+
+nav {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  background-color: var(--red);
+  border-radius: 3px;
+}
+
+nav a {
+  font-style: initial;
+  text-decoration: none;
+  font-size: larger;
+}
+
+#sobre-mim {
+  padding: 2rem;
+  text-align: left;
+  font-size: larger;
+  background-color: var(--light);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 5px 0;
+}
+
+#sobre-mim h3 {
+  text-align: center;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+
+#sobre-mim h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+
+#projetos {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  border-radius: 0 5px;
+}
+
+#projetos img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#projetos #em-breve {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+  border-radius: 5px;
+  display: flex;
+}
