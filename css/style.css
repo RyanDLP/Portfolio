@@ -21,7 +21,6 @@ body {
   font-family: "Trebuchet MS", sans-serif;
   line-height: 1.6;
   color: #222;
-  background-color: #111;
 }
 
 nav {
@@ -31,7 +30,6 @@ nav {
   flex-flow: row wrap;
   justify-content: space-evenly;
   background-color: var(--red);
-  border-radius: 3px;
 }
 
 nav a {
@@ -49,7 +47,6 @@ nav a {
   font-size: larger;
   background-color: var(--light);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
-  border-radius: 5px 0;
 }
 
 #sobre-mim h3 {
@@ -72,7 +69,6 @@ nav a {
   text-align: center;
   font-size: 1.5rem;
   padding-bottom: 1rem;
-  border-radius: 0 5px;
 }
 
 #projetos img {
@@ -88,7 +84,6 @@ nav a {
   flex-direction: row;
   width: 50%;
   height: 100vh;
-  border-radius: 5px;
 }
 
 #contato {
@@ -96,7 +91,6 @@ nav a {
   width: 100%;
   display: flex;
   justify-content: center;
-  border-radius: 5px;
 }
 
 form {
