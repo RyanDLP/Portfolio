@@ -165,3 +165,133 @@ footer h3 {
   gap: 2rem;
   background-color: white;
 }
+
+@media (max-width: 480px) {
+  nav {
+    width: auto;
+  }
+
+  #projetos {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 0;
+  }
+
+  #projetos img {
+    width: 90%;
+    max-width: 23.5rem;
+    height: auto;
+  }
+
+  #projetos #img-3 {
+    width: 90%;
+    max-width: 23.6rem;
+  }
+
+  #contato {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-top: 1rem;
+    border: 0.5px solid var(--red);
+  }
+
+  #form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    width: 100%;
+    align-items: center;
+  }
+
+  form input[type="text"],
+  form input[type="email"] {
+    width: 90%;
+    border: 0.5px solid var(--red);
+  }
+
+  #contato form #box {
+    width: 90%;
+    height: 5rem;
+  }
+
+  #contato form #box:focus {
+    border: 2px solid red;
+  }
+
+  form #button {
+    border: none;
+    width: 6rem;
+    height: 2rem;
+  }
+  footer h3 {
+    width: 80vw;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    width: auto;
+  }
+
+  #projetos {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 0;
+    width: 100%;
+  }
+
+  #projetos img {
+    width: 100%;
+    height: auto;
+  }
+
+  #projetos #img-3 {
+    width: 99%;
+  }
+
+  #contato {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+    border: 0.5px solid var(--red);
+  }
+
+  #form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    width: 100%;
+    align-items: center;
+  }
+
+  form input[type="text"],
+  form input[type="email"] {
+    width: 90%;
+    border: 0.5px solid var(--red);
+  }
+
+  #contato form #box {
+    width: 90%;
+    height: 5rem;
+  }
+
+  #contato form #box:focus {
+    border: 2px solid red;
+  }
+
+  form #button {
+    border: none;
+    width: 6rem;
+    height: 2rem;
+  }
+
+  footer {
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+  }
+}
